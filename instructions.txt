@@ -1,0 +1,24 @@
+Lab4
+For lab 4, you need to:
+-present your solution to the teaching assistant and
+-submit Array.h, Array.cpp, ArrayNew.h and ArrayNew.cpp files to the blackboard.
+
+Question: Create an Array class according to the UML below:
+Then, create a new class: ArrayNew, use unique pointer to replay the raw pointer
+you used before.
+
+
+Array
+_______________________
+-data: int*
+-size: int
+_______________________
++Constructor: constructor with parameters
++Copy constructor:
++Destructor:
+
+Question 2:
+Continue working on Lab 4, Array class.
+ Overload subscript operator: []
+ Overload dereference(indirection) operator: *
+ Apply “Rule of three” to Array class
