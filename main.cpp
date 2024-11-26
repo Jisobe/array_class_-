@@ -74,7 +74,7 @@ int main(){
   // cout << *arrNew1 << endl;
 
   //______________Array Template______________
-    cout << "____arr1____" << endl;
+  cout << "____arr1____" << endl;
   Array<int> arr1(5);
 
   arr1[0] = 1;
@@ -102,7 +102,6 @@ int main(){
   cout << "____arr1 = arr2____" << endl;
   arr1 = arr2;
   cout << "____arr1____" << endl;
-  cout << *arr1 << endl;
   arr1.Print(3);
 
   return 0;

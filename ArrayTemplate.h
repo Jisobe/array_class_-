@@ -55,8 +55,6 @@ Array<T1>& Array<T1>::operator=(const Array<T1>& inputArray){
   cout << "Copy assignment operator called for the array class" << endl << endl;
   if(this != &inputArray){
     size = inputArray.size;
-    delete[] data;
-    data = new T1[size];
     for(int i = 0; i < size; i++){
       data[i] = inputArray.data[i];
     }
